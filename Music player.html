@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Playlist</title>
+    <link rel="stylesheet" href="Music player.css">
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">-->
+</head>
+<!-- body -->
+
+<body>
+    <div id="fontcolor">
+    <!-- top navigation bar -->
+    <nav class="navigation-bar">
+        <!-- this div contains the logo and title os the page -->
+        <div class="title-combo">
+            <div class="website-logo">
+               <img src="https://t4.ftcdn.net/jpg/04/61/19/21/240_F_461192181_nrIBvNP5ohwe5rIwpaJ0R8sl8gMN1wNX.jpg" alt="">
+            </div>
+            <div class="website-name">
+                <h2>
+                    <a href="index.html">
+                        Ninajs music
+                    </a>
+                </h2>
+                <h6 style="color: rgb(0, 255, 166);">
+                    <a href="index.html">Music Player</a>
+                </h6>
+            </div>
+        </div>
+        <!-- this is the animated favourites text -->
+        <div class="favs">
+            <h4>
+                Favourites
+            </h4>
+        </div>
+        <div class="search-bar">
+            <div>
+                <!-- magnifying glass- search icon -->
+                <i class="fas fa-search search-ico"></i>
+            </div>
+            <input type="text" name="search" placeholder="Search">
+            <div>
+                <!-- mic icon -->
+                <i class="fas fa-microphone mic-ico"></i>
+            </div>
+        </div>
+        <!-- this is for notification bell -->
+        <div class="notification-bell">
+            <img src="https://cdn-icons-png.flaticon.com/128/1827/1827370.png" alt="">
+
+        </div>
+        <!-- this is for profile picture -->
+        <div class="profile-picture">
+            <img src="https://t3.ftcdn.net/jpg/05/01/74/76/240_F_501747615_oLK3P8Z2tbLDX6UD37hu7ZVeaVIDA2nO.jpg" alt="">
+        </div>
+    </nav>
+    <!-- this is the main center part of the page and it is divided into two sections, namely section 1 and section 2-->
+    <!-- I have separated these sections using the aside tag for each section -->
+    <main>
+        <!-- aside section 1 -->
+        <aside class="aside section-1">
+            <!-- this is for the jumbotron -->
+            <div class="jumbotron">
+                <div class=jumbotron-image>
+                    <!-- there is nothing in this div because all the images and all are added by css -->
+                </div>
+                <!-- jumbotron details -->
+                <div class="jumbotron-detail">
+                    <!-- descriptive part of the jumbotron this will contain name , number of followers and all -->
+                    <div id="main-arjit">
+                    <div class="descriptive-part">
+                        <div class="song-name-main">
+                       <img src="https://i.insider.com/5b2c04e75e48ec25008b468e?width=1000&format=jpeg&auto=webp" alt="" height="370px" width="450" style="vertical-align:middle;margin:0px 50px"> 
+                        <div class="text-block">
+                        <h1 style="text-align: right;">ColdPlay</h1> </p>                         
+                         
+                        </div>
+                        <div class="followers" style="text-align: right;">
+                            21m Followers
+                        </div>
+                        <p class="author" style="text-align: right;">British Band</p>
+                    </div>
+                <div style="text-align: right;">Coldplay are a British rock band formed in London in 1996. Vocalist, rhythm guitarist and pianist Chris Martin, lead guitarist Jonny Buckland, bassist Guy Berryman, and drummer Will Champion met at University College London and began playing music together from 1996 to 1998, first calling themselves Pectoralz and then Starfish before finally changing their name to Coldplay</p>
+                </div>
+                    <!-- action part -->
+                    <div class="action-part">
+
+                        <!-- action buttons -->
+                        </p>
+                        <p style="text-align: right;">
+                            247 Tracks | 128 Albums
+                        </p>
+                        <div class="btns">
+                            <button class="btns1">Play All</button>
+                            <button class="btns2">Follow</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!-- now the playlist part begins -->
+            <div class="playlist-items">
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            01
+                        </div>
+                        <div>
+                           <img src="https://paglasongs.com/uploads/thumb/sft3/1389_4.jpg" alt=""style height="20px" width="30px">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                        <h5 style="align-items: center; display: flex;">
+                             Alone
+                            </h5>
+                            <p >
+                                Alan Walker
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        3:14
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            02
+                        </div>
+                        <div>
+                            <img src="https://slm-assets.secondlife.com/assets/13173389/view_large/f5078f6c1977402c194417375f6adefc.jpg?1452856997" alt=""height="20px" width="30px">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5 style="text-align: right;">
+                                White Iverson
+                            </h5>
+                            <p style="text-align: right;">
+                                Post Malone
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center"  >
+                        3:44
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            03
+                        </div>
+                        <div>
+                          <img src="https://wallpapers.com/images/file/post-malone-go-flex-poster-8w0poy5017pakzh7.jpg" alt=""height="20px" width="30px">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5 style="text-align: right;">
+                                Go Flex
+                            </h5>
+                            <p style="text-align: right;">
+                                Post Malone
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        2:55
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            04
+                        </div>
+                        <div>
+                          <img src="https://lastfm.freetls.fastly.net/i/u/770x0/ddfc52a7a8472ffe578d2e2ddc386428.jpg#ddfc52a7a8472ffe578d2e2ddc386428" alt=""height="20px" width="30px">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5 style="text-align: right;">
+                                Better Now
+                            </h5>
+                            <p style="text-align: center;">
+                                Post Malone
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        3:37
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            05
+                        </div>
+                        <div>
+                          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Post_Malone_at_the_2019_American_Music_Awards.png/330px-Post_Malone_at_the_2019_American_Music_Awards.png" alt=""height="20px" width="30px">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Big lie
+                            </h5>
+                            <p>
+                                Post Malone
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        3:27
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            06
+                        </div>
+                        <div>
+                           <img src="https://i.pinimg.com/564x/53/02/2e/53022e18eccdb07a0e0f328733de389c.jpg" alt=""height="20px" width="30px">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Deja Vu
+                            </h5>
+                            <p>
+                                Post Malone & Justin Beiber
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        4:31
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            07
+                        </div>
+                        <div>
+                           <img src="https://runthetrap.com/wp-content/uploads/2018/02/28071296_1290832377716973_1211830678062566143_o.jpg" alt=""height="20px" width="30px">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Pysco
+                            </h5>
+                            <p>
+                                Post Malone 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        3:28
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            08
+                        </div>
+                        <div>
+                           <img src="https://i3.sndcdn.com/artworks-000246623332-g0ttva-t500x500.jpg" alt=""height="20px" width="30px">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Rockstar
+                            </h5>
+                            <p>
+                                Post Malone & 21 Savage
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        3:48
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            09
+                        </div>
+                        <div>
+                            <img src="https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png" alt=""height="20px" width="30px">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Blinding Lights
+                            </h5>
+                            <p>
+                                Weeknd
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        3:20
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            10
+                        </div>
+                        <div>
+                            <img src="https://c.saavncdn.com/342/After-Hours-Deluxe--English-2020-20200520033146-500x500.jpg" alt=""height="20px" width="30px">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Alone Again
+                            </h5>
+                            <p>
+                                Weeknd
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        4:10
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->  
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            11
+                        </div>
+                        <div>
+                          <img src="https://i0.wp.com/www.xclusivepop.com/wp-content/uploads/2021/06/Peruzzi-%E2%80%93-Lie-Again.jpg?fit=678%2C381&ssl=1" alt=""height="30px" width="40px">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Too Late
+                            </h5>
+                            <p>
+                                Weeknd
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        4:00
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            12
+                        </div>
+                        <div>
+                            <img src="https://i.pinimg.com/564x/07/af/d1/07afd1a3b35078fd9af457e2fe80e513.jpg" alt=""height="30px" width="40px">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Hardest To Love
+                            </h5>
+                            <p>
+                                Weeknd
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        3:31
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </aside>
+        <!-- one aside section is complete -->
+        <!-- now the second aside section will start from here -->
+        <!-- the page is responsive. please try reducing the width of the page -->
+        <!-- the aside section will collapse and a "more button will be shown to you." -->
+        <!-- clicking on this more button, you will be shown the aside section 2  -->
+        <!-- its position will be absolute at lower resolutions -->
+        <!-- this is the label for that more button -->
+        <label for="more"><i class="fas fa-angle-double-left"></i>More</label>
+        <!-- this is that more button -->
+        <!-- and this is the check box. this will always be hidden -->
+        <!-- check the stylesheet_main.css when the label is clicked, this checkbox will be checked -->
+        <!-- which will invoke the aside section 2 on lower resolutions -->
+        <input type="checkbox" id="more">
+        <!-- </div> -->
+        <aside class="aside section-2">
+            <!-- similar class will be applicable to both similar artists and recently played -->
+            <div class="similar">
+                <!-- section heading, which also contains the view all button -->
+                <div class="section-heading">
+                    <h1>Similar Artists</h1>
+                    <div class="view-all-button">
+                       <buttion> View All </buttion>
+                    </div>
+                </div>
+                <!-- list is the container for the contents of similar artists -->
+                <div class="list">
+                    <!-- item -->
+                    <div class="list-item">
+                        <div>
+                          <img src="https://upload.wikimedia.org/wikipedia/en/9/96/Resized_justin_bieber_love_me_cover.jpg" alt=""height="20px" width="30px"> <h5>Love me</h5> <p class="author-name" > Justin Beiber</p>
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div style="position: absolute; left:120px;">
+                        </div>
+                        <div class="extra">
+                            <div>
+                                <i class="fas fa-ellipsis-h"></i>
+                            </div>
+                            <p class="author-name">
+                                2:14
+                            </p>
+                        
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="list-item">
+                        <div>
+                           <p><img src="https://c.saavncdn.com/013/Gotti-English-2020-20200914194921-500x500.jpg" alt=""height="20px" width="30px"><h5 >Gooti</h5><p class="author-name">6ix9ine</p>
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div style="position: absolute; left:120px;">
+                            </p>
+                        </div>
+                        <div class="extra">
+                            <div>
+                                <i class="fas fa-ellipsis-h"></i>
+                            </div>
+                            <p class="author-name" >
+                                4:00
+                            </p>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="list-item">
+                        <div>
+                            <img src="https://c.saavncdn.com/706/WAP-feat-Megan-Thee-Stallion--English-2020-20200807012028-500x500.jpg" alt=""height="20px" width="30px"> <h5 > WAP</h5><p class="author-name">Cardi B</p>
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div style="position: absolute; left:120px;">
+                        </div>
+                        <div class="extra">
+                            <div>
+                                <i class="fas fa-ellipsis-h"></i>
+                            </div>
+                            <p class="author-name" style="position: absolute; left:1090px;">
+                                4:44
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+ 
+                    <!-- again list is a container for all the contents of recently played section -->
+                    <div class="list">
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>
+                                    01
+                                </div>
+                                <div>
+                                   <img src="https://c.saavncdn.com/157/I-ll-Wait-English-2020-20200330104518-500x500.jpg" alt=""height="30px" width="40px"> <h5> I'll wait </h5><p>Kygo</p>
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>
+                                    02
+                                </div>
+                                <div>
+                                   <p><img src="https://c.saavncdn.com/454/Let-Me-Go-English-2017-20200421182731-500x500.jpg" alt=""height="30px" width="40px"> <h5>Let Me Go</h5> <p>NoMethod</p>
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>
+                                    03
+                                </div>
+                                <div>
+                                    <img src="https://c.saavncdn.com/357/ily-English-2020-20200225023549-500x500.jpg" alt=""height="30px" width="40px"> <h5> Ily</h5><p>Surf Mesa</p>
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>
+                                    04
+                                </div>
+                                <div>
+                                    <img src="https://c.saavncdn.com/572/Roar-English-2013-20200507233156-500x500.jpg" alt=""height="30px" width="40px"> <h5>Roar</h5><p>Ketty Perry</p>
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>
+                                    05
+                                </div>
+                                <div>
+                                    <img src="https://c.saavncdn.com/455/Toosie-Slide-English-2020-20200403041704-500x500.jpg" alt=""height="20px" width="30px">
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>Toosie Slide</h5><p>Drake</p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>
+                                    06
+                                </div>
+                                <div>
+                                 <img src="https://c.saavncdn.com/049/Uptown-Funk-English-2014-500x500.jpg" alt=""height="20px" width="30px">
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>
+                                        Uptwon Funk
+                                    </h5>
+                                    <p>
+                                        Bruno
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>
+                                    07
+                                </div>
+                                <div>
+                                    <img src="https://c.saavncdn.com/521/Baarish-Bhojpuri-2022-20221005053646-500x500.jpg" alt=""height="20px" width="30px">
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>
+                                        Baarish
+                                    </h5>
+                                    <p>
+                                        Half Girlfriend
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>
+                                    08
+                                </div>
+                                <div>
+                                    <img src="https://c.saavncdn.com/584/Teri-Galliyon-Se-Hindi-2022-20220810175447-500x500.jpg" alt=""height="20px" width="30px">
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>
+                                        Gulliyon
+                                    </h5>
+                                    <p>
+                                        Ek Villan
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>
+                                    09
+                                </div>
+                                <div>
+                                    <img src="https://c.saavncdn.com/768/All-Is-Well-Hindi-2015-500x500.jpg" alt=""height="20px" width="30px">
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>
+                                        All-is-well
+                                    </h5>
+                                    <p>
+                                        3idiots
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+
+
+
+    <!-- main part of the page is over. -->
+    <!-- this is the footer part. -->
+    <!-- its position will be fixed to the screen bottom. -->
+    <footer>
+        <div class="active-song-description">
+            <!-- song image -->
+            <div id="song-image">
+                <img src="https://c.saavncdn.com/677/Stoney-English-2016-20200328185419-500x500.jpg" alt="">
+            </div>
+            <!-- song name and author -->
+            <div class="song-desc">
+                <div>
+                    White Iverson
+                </div>
+                <div>
+                    Post Malone
+                </div>
+            </div>
+                <!-- heart icon and ban icon -->
+            <div class="heart-and-ban-icon">
+                <span>
+                    <i class="far fa-heart"></i>
+                </span>
+                <span>
+                    <i class="fas fa-ban"></i>
+                </span>
+            </div>
+        </div>
+        <!-- these are the main player controls -->
+        <div class="player">
+            <div class="controls">
+                <div><i class="fas fa-random"></i></div>
+                <div><i class="fas fa-step-backward"></i></div>
+                <div><i class="fas fa-pause-circle"></i></div>
+                <div><i class="fas fa-step-forward"></i></div>
+                <div><i class="fas fa-redo"></i></div>
+            </div>
+            <!-- this is the slider -->
+            <div id="slider">
+                <!-- current time -->
+                <div class="time">
+                    1:39
+                </div>
+                <div class="slidecontainer">
+                    <input type="range" min="0" max="100" value="0" class="slider" id="myRange">
+                </div>
+                <!-- total time -->
+                <div class="time">
+                    4:44
+                </div>
+            </div>
+        </div>
+        <!-- other icons including the volume slider and all -->
+        <div class="extras">
+            <div>
+                <i class="fas fa-list-ul"></i>
+            </div>
+            <div>
+                <i class="fas fa-laptop"></i>
+            </div>
+            <div>
+                <i class="fas fa-volume-up"></i>
+            </div>
+            <div class="slidecontainer" style="width:30%;">
+                <input type="range" min="0" max="100" value="0" class="slider" id="myRange" style="margin-top:0px;">
+            </div>
+            <div>
+                <i class="fas fa-expand-alt"></i>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+
+</html>
